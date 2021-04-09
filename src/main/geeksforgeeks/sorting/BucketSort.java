@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class BucketSort {
-    public void maximumGap(int[] nums) {
+    public void bucketSort(int[] nums) {
         int n = nums.length;
         if (n < 2) {
             return;

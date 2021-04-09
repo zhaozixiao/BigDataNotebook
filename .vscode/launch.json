@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TreeSort",
+            "request": "launch",
+            "mainClass": "main.geeksforgeeks.sorting.TreeSort",
+            "projectName": "fukkLeetCode_aa2e068a"
+        },
+        {
+            "type": "java",
             "name": "Launch PrintPost",
             "request": "launch",
             "mainClass": "main.geeksforgeeks.PrintPost",

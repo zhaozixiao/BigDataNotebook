@@ -1,11 +1,12 @@
-package main.geeksforgeeks;
+package main.geeksforgeeks.tree;
 // Java program to print Postorder traversal from given Inorder
+
 // and Preorder traversals.
 
 public class PrintPost {
 	static int preIndex = 0;
-	void printPost(int[] in, int[] pre, int inStrt, int inEnd)
-	{
+
+	void printPost(int[] in, int[] pre, int inStrt, int inEnd) {
 		if (inStrt > inEnd)
 			return;
 
@@ -23,8 +24,7 @@ public class PrintPost {
 		System.out.print(in[inIndex] + " ");
 	}
 
-	int search(int[] in, int startIn, int endIn, int data)
-	{
+	int search(int[] in, int startIn, int endIn, int data) {
 		int i = 0;
 		for (i = startIn; i < endIn; i++)
 			if (in[i] == data)
@@ -33,8 +33,7 @@ public class PrintPost {
 	}
 
 	// Driver code
-	public static void main(String ars[])
-	{
+	public static void main(String ars[]) {
 		int in[] = { 4, 2, 5, 1, 3, 6 };
 		int pre[] = { 1, 2, 4, 5, 3, 6 };
 		int len = in.length;
